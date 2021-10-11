@@ -39,7 +39,7 @@ int main()
 
     scanf("%d", &inputBase);
 
-    printf("  -- Your number %d(%d number system) is: ", inputNumber, inputBase);
+    printf("  -- Your number %d (DECIMAL) in ( %d number system ) is: ", inputNumber, inputBase);
 
     itob(inputNumber, str, inputBase);
 
